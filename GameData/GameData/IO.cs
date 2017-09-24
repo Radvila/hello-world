@@ -4,19 +4,22 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace GameData
 {
     class IO
     {
-        public void Write(string goalTime, string goalTeam, string goalBar, int totalScore)
+        public void Write(string goalTime, string teamName, string goalBar, int totalScore, TimeSpan ts, Stopwatch timer)
         {
             string filePath = @"C:\Users\Radvila\source\repos\GameData\GameData\GoalInfo.txt";
 
-            File.WriteAllText(filePath, goalTime +" "+ goalTeam +" "+ goalBar+" "+ "total score is "+totalScore + Environment.NewLine);
+            ts = timer.Elapsed;
+            File.AppendAllText(filePath, goalTime +" "+ teamName +" "+ goalBar +" "+ "total score is "+ totalScore +" "+ ts + Environment.NewLine);
             if(totalScore == 8)
             {
-                File.WriteAllText(filePath, "Komanda " + goalTeam + "Laimejo!" + Environment.NewLine);
+                timer.Reset();
+                File.AppendAllText(filePath, teamName + " Laimejo!" + Environment.NewLine);
             }
         }
 

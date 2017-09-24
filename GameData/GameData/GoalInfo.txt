@@ -1,1 +1,13 @@
-18:43:02 Komanda 1 Penketas total score is 1
+23:49:31 Komanda 1  total score is 1 00:00:00.0000018
+23:49:31 Komanda 2  total score is 1 00:00:00.0000018
+23:55:20 Komanda 1  total score is 1 00:00:00.0000021
+23:55:20 Komanda 2  total score is 1 00:00:00.0000021
+23:55:56 Komanda 1  total score is 1 00:00:00.0000018
+23:55:56 Komanda 2  total score is 8 00:00:00.0000018
+Komanda 2Laimejo!
+23:59:16 Komanda 1  total score is 1 00:00:00.0010834
+23:59:16 Komanda 2  total score is 8 00:00:00.0048094
+Komanda 2 Laimejo!
+00:16:35 Komanda 1  total score is 1 00:00:00.0015152
+00:16:35 Komanda 2  total score is 8 00:00:00.0024422
+Komanda 2 Laimejo!
