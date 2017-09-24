@@ -1,0 +1,7 @@
+C:\Users\Radvila\source\repos\GameData\GameData\obj\Debug\GameData.csprojResolveAssemblyReference.cache
+C:\Users\Radvila\source\repos\GameData\GameData\obj\Debug\GameData.csproj.CoreCompileInputs.cache
+C:\Users\Radvila\source\repos\GameData\GameData\bin\Debug\GameData.exe.config
+C:\Users\Radvila\source\repos\GameData\GameData\bin\Debug\GameData.exe
+C:\Users\Radvila\source\repos\GameData\GameData\bin\Debug\GameData.pdb
+C:\Users\Radvila\source\repos\GameData\GameData\obj\Debug\GameData.exe
+C:\Users\Radvila\source\repos\GameData\GameData\obj\Debug\GameData.pdb
