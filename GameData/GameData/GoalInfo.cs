@@ -12,13 +12,13 @@ namespace GameData
         public string goalTeam { get; set; }
         public string goalBar { get; set; }
         public static int totalScore { get; set; }
+        public static int totalScore2 { get; set; }
 
         public GoalInfo(string goalTime2, string goalTeam2, string goalBar2)
         {
             goalTime = goalTime2;
             goalTeam = goalTeam2;
-            goalBar = goalBar2;
-            totalScore++;
+            goalBar = goalBar2;     
         }
 
         public GoalInfo()
